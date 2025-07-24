@@ -155,3 +155,74 @@ body {
     order: 1;
   }
 }
+/* plant section */
+.plants-section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  color: #2b8a3e;
+}
+
+.section-title p {
+  color: #666;
+  margin-top: 5px;
+  margin-bottom: 30px;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.plant-card {
+  background: #f8fff7;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.plant-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.plant-card h3 {
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
+}
+
+.plant-card p {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.plant-card button {
+  margin-top: 10px;
+  background: #2b8a3e;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.plant-card button:hover {
+  background: #236e30;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .plant-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
