@@ -226,3 +226,59 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+/* new one */
+.plant-lover-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+}
+
+.plant-lover-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.plant-lover-image {
+  flex: 1;
+  position: relative;
+}
+
+.plant-lover-image img:first-child {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+}
+
+.trusted-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 80px;
+  z-index: 5;
+}
+
+.plant-lover-content {
+  flex: 1;
+}
+
+.plant-lover-content h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.plant-lover-content h2 span {
+  color: #ff6600;
+}
+
+.plant-lover-content ul {
+  padding-left: 20px;
+}
+
+.plant-lover-content li {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
